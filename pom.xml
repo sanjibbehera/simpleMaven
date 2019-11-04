@@ -59,7 +59,7 @@
     <repository>
         <id>nexus-releases</id>
         <name>releases</name>
-        <url>http://localhost:8090</url>
+        <url>http://localhost:8091</url>
     </repository>
 </distributionManagement>
 
