@@ -26,16 +26,6 @@ pipeline {
         }
     }
     
-    stage ('Deployment Stage'){
-      environment {
-        mvnHome = tool name: 'maven', type: 'maven'
-      }
-      steps{
-        withMaven(maven: 'maven'){
-            //sh 'mvn deploy'
-          sh "${mvnHome}/bin/mvn deploy"
-        }
-      }
-    }
+    
   }
 }
