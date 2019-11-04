@@ -54,5 +54,15 @@
         </dependency>
 
     </dependencies>
+         
+    <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <name>releases</name>
+        <url>http://localhost:8090</url>
+        <username>tomcat</username>
+        <password>tomcat</password>
+    </repository>
+</distributionManagement>
 
 </project>
