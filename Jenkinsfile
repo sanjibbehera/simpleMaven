@@ -31,7 +31,7 @@ pipeline {
       }
       steps{
         withMaven(maven: 'maven'){
-            sh 'mvn deploy'
+            //sh 'mvn deploy'
             //sh 'mvn deploy'
           sh "${mvnHome}/bin/mvn deploy"
         }
