@@ -55,12 +55,6 @@
 
     </dependencies>
          
-    <distributionManagement>
-    <repository>
-        <id>sanjib-releases</id>
-        <name>sanjib-releases</name>
-        <url>http://localhost:8181</url>
-    </repository>
-</distributionManagement>
+    
 
 </project>
