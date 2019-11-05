@@ -57,9 +57,9 @@
          
     <distributionManagement>
     <repository>
-        <id>nexus-releases</id>
-        <name>releases</name>
-        <url>http://localhost:8091</url>
+        <id>sanjib-releases</id>
+        <name>sanjib-releases</name>
+        <url>http://localhost:8181</url>
     </repository>
 </distributionManagement>
 
