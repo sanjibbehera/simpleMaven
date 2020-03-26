@@ -1,29 +1,11 @@
 package com.sanjib;
 
-public class HelloWorld 
-{
-	
-   private String name = "";
+public class HelloWorld {
+    public void sayHello() {
+        System.out.println("Hello World!");
+    }
 
-   public String getName() 
-   {
-      return name;
-   }
-
-   public String getMessage() 
-   {
-      if (name == "") 
-      {
-         return "Hello!";
-      }
-      else 
-      {
-         return "Hello " + name + "!";
-      }
-   }
-
-   public void setName(String name) 
-   {
-      this.name = name;
-   }		
+    public void notCovered() {
+        System.out.println("This method is not covered by unit tests");
+    }
 }
